@@ -1,6 +1,6 @@
 # api-kenpom
 
-A Python wrapper for kenpom.com's API.
+An unofficial Python wrapper for kenpom.com's API.
 
 ## Installation
 
@@ -55,8 +55,8 @@ All methods return the decoded JSON response body (a `list` or `dict`).
 
 ## Authentication
 
-A KenPom API subscription is required. Your bearer token is available at
-[https://kenpom.com/api-documentation.php](https://kenpom.com/api-documentation.php).
+A KenPom API subscription is required. If subscribed, your bearer token is available at
+[https://kenpom.com/api-documentation.php](https://kenpom.com/account.php). You can find API documentation at [https://kenpom.com/api-documentation.php](https://kenpom.com/api-documentation.php).
 
 ## Development
 
