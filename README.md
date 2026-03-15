@@ -18,6 +18,9 @@ pip install api-kenpom
 
 ## Usage
 
+> [!NOTE]
+> Some endpoints only work for 2010 or later.
+
 ```python
 from kenpom import KenpomClient
 
@@ -61,9 +64,18 @@ A KenPom API subscription is required. If subscribed, your bearer token is avail
 ## Development
 
 ```bash
+# Install pre-commit hooks
+pre-commit install
+
 # Install all dependencies (including dev)
 uv sync --extra dev
 
 # Run tests
 uv run pytest
+
+# Run formatting
+uv run ruff format
+
+# Run linting
+uv run ruff check
 ```
